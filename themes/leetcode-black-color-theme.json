@@ -1,0 +1,77 @@
+{
+  "name": "LeetCode Dark (no blue bar)",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#222222",
+    "editor.foreground": "#D4D4D4",
+    "editorCursor.foreground": "#AEAEAE",
+    "editor.lineHighlightBackground": "#272727",
+    "editorLineNumber.foreground": "#858585",
+    "editor.selectionBackground": "#264F78",
+    "editor.inactiveSelectionBackground": "#3A3A3A",
+    "sideBar.background": "#212121",
+    "activityBar.background": "#2d2d2d",
+    "statusBar.background": "#222222",
+    "statusBar.foreground": "#858585",
+    "statusBar.border": "#2d2d2d",
+    "statusBar.noFolderBackground": "#222222",
+    "statusBar.debuggingBackground": "#222222",
+    "statusBar.debuggingForeground": "#858585"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#6A9955",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "entity.name.variable"
+      ],
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#DCDCAA"
+      }
+    },
+    {
+      "scope": [
+        "storage.modifier",
+        "support.type",
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#B5CEA8"
+      }
+    }
+  ]
+}

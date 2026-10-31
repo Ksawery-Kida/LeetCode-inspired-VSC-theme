@@ -1,0 +1,35 @@
+{
+  "name": "LeetCode Light",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#262626",
+    "editorCursor.foreground": "#262626",
+    "editor.lineHighlightBackground": "#F7F8FA",
+    "editorLineNumber.foreground": "#A0A0A0",
+    "editor.selectionBackground": "#ADD6FF",
+    "editor.inactiveSelectionBackground": "#E5EBF1",
+    "editorGroupHeader.tabsBackground": "#F7F8FA",
+    "tab.activeBackground": "#FFFFFF",
+    "tab.inactiveBackground": "#F7F8FA",
+    "sideBar.background": "#F7F8FA",
+    "activityBar.background": "#EDEEF0",
+    "panel.background": "#FFFFFF",
+    "terminal.background": "#FFFFFF",
+    "titleBar.activeBackground": "#EDEEF0",
+    "statusBar.background": "#FFFFFF",
+    "statusBar.foreground": "#6B6B6B",
+    "statusBar.border": "#E5E5E5",
+    "statusBar.noFolderBackground": "#FFFFFF",
+    "statusBar.debuggingBackground": "#FFFFFF",
+    "statusBar.debuggingForeground": "#6B6B6B"
+  },
+  "tokenColors": [
+    { "scope": ["comment"], "settings": { "foreground": "#008000", "fontStyle": "italic" } },
+    { "scope": ["keyword", "storage.type"], "settings": { "foreground": "#0000FF" } },
+    { "scope": ["variable", "entity.name.variable"], "settings": { "foreground": "#001080" } },
+    { "scope": ["entity.name.function", "support.function"], "settings": { "foreground": "#795E26" } },
+    { "scope": ["storage.modifier", "support.type", "entity.name.type"], "settings": { "foreground": "#267F99" } },
+    { "scope": ["constant.numeric"], "settings": { "foreground": "#098658" } }
+  ]
+}

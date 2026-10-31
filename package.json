@@ -1,0 +1,27 @@
+{
+  "name": "leetcode-black",
+  "displayName": "LeetCode Black & Light",
+  "description": "LeetCode-inspired themes: pure black dark variant and a light variant, without the blue status bar",
+  "version": "0.0.1",
+  "publisher": "ksawery",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "LeetCode Dark (no blue bar)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/leetcode-black-color-theme.json"
+      },
+      {
+        "label": "LeetCode Light",
+        "uiTheme": "vs",
+        "path": "./themes/leetcode-light-color-theme.json"
+      }
+    ]
+  }
+}
